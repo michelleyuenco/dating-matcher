@@ -437,6 +437,18 @@ textarea.mono { font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.8re
   font-size: 1.1rem;
 }
 
+/* Header Right */
+.header-right { display: flex; align-items: center; gap: 0.75rem; }
+
+/* GitHub Link */
+.github-link {
+  color: var(--text-muted);
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+}
+.github-link:hover { color: var(--text); }
+
 /* User Info in Header */
 .user-info { display: flex; align-items: center; gap: 0.5rem; }
 .user-email { font-size: 0.8rem; color: var(--text-muted); }
